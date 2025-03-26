@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'public'))); // Sirve archivos está
 const dbConfig = {
   user: 'root',
   password: 'root',
-  server: '192.168.6.166',
+  server: 'localhost',
   database: 'BIBLIOTECA',
   options: {
     encrypt: true,
