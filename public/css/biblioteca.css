@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    margin: 0;
+}
+
+.login-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-login {
+    background: #ff7e5f;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background: #feb47b;
+}
+
+.register-link {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.register-link a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Estilos generales para la tabla */
+#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para las cabeceras de la tabla */
+#dataTable thead th {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Estilo para las filas del cuerpo de la tabla */
+#dataTable tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para las celdas del cuerpo de la tabla */
+#dataTable tbody td {
+    padding: 12px;
+}
+
+/* Estilo para las filas impares (rayado tipo cebra) */
+#dataTable tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para las filas al pasar el cursor por encima */
+#dataTable tbody tr:hover {
+    background-color: #ddd;
+}
